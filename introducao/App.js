@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HelloRN from './components/01helloRN'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Gabriel's app</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.titulo}>Bem-vindo</Text>
+      <HelloRN />
     </View>
   );
 }
@@ -17,4 +17,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  titulo: {
+    fontSize: 50,
+    fontWeight: "bold",
+    color: "blue"
+  }
 });
