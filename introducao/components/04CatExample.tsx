@@ -1,0 +1,1 @@
+// he made the same code but make it typescript, no repeating that, the other way is working
